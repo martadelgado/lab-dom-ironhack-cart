@@ -5,36 +5,32 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="css/custom.css">
- <script type="text/javascript" src="js/tenSecondsMath.js"></script>
-   <!--  Added Libraries -->
-
-   <!-- Custon CSS -->
+ <link rel="stylesheet" href="css/style.css">
+ <script type="text/javascript" src="js/index.js"></script>
  </head>
- <body>
- <h1> Ten Seconds Math Game </h1>
- <h2> Game Options </h2>
- <h3> Number Limit: </h3> <div id="limit">Limit</div><br>
- <div id="countdownOutput">output</div>
- <p> Operators </p>
-<div class="form">
- <input type="checkbox" name="add"><img src="images/add.jpg" height="30" width="30"/><br>
-</div>
-<div class="form">
- <input type="checkbox" name="substract"><img src="images/substract.jpg" height="30" width="30"/><br>
-</div>
-<div class="form">
- <input type="checkbox" name="multiply"><img src="images/multiply.jpg" height="30" width="30"/><br>
-</div>
-<div class="form">
- <input type="checkbox" name="divide"><img src="images/divide.jpg" height="30" width="30"/><br>
-</div>
 
-<div id="num1"></div>
-<!-- <INPUT TYPE=TEXT NAME="ACCOUNT" ID="ACCOUNT" VALUE="" MAXLENGTH=16 SIZE=16 readonly> -->
+<body>
+  <h1> Ironhack Merchandising Shop</h1>
+  <div> <span class="prod-name"> Iron Bubblehead </span></div>
+  <div> $<span class="cost"> 25.00 </span></div>
+  <div> QTY <input type="number" placeholder="0" class="input"> </div>
+  <div> <span class="total"> $0.00 </span></div>
+  <div> <button id="delete"> Delete </button></div> <br>
 
-<button id="startGame" onclick="countdown()" >Start Game</button>
-   <!-- Custon JavaScript -->
 
- </body>
-</html>
+  <div> <span class="prod-name"> Iron Tshirt </span></div>
+  <div> $<span class="cost"> 15.00 </span></div>
+  <div> QTY <input type="number" placeholder="0" class="input"> </div>
+  <div> <span class="total"> $0.00 </span></div>
+  <div> <button id="delete"> Delete </button></div> <br>
+
+  <div> <span class="prod-name"> Iron Coffee Mug </span></div>
+  <div> $<span class="cost"> 10.00 </span></div>
+  <div> QTY <input type="number" placeholder="0" class="input"> </div>
+  <div> <span class="total"> $0.00 </span></div>
+  <div> <button id="delete"> Delete </button></div> <br>
+
+  <div> <button id="calculatePriceButton"> Calculate </button></div>
+
+  <h2>Total Price: $<span class="product-totals">0</span></h2>
+</body>
